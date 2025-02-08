@@ -4,6 +4,8 @@
 
 ## In the main folder there is file: docker-compose.yml, which could be started with docker-compose up command from Docker CLI
 
+### In the Docker Compose file is Postgres DB, Redis, Kafka and Fraud Detection Application. The built Server App has logic to download Maven and Java, and automatically start and connect to Posgres DB.
+
 ## If the application is started successfully, this curl could be used in Postman to call transaction API and add transaction
 
 ### Curl
